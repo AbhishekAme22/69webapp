@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #373A3F;
+}
+.header{
+    height: auto;
+    width: 100%;
+    background-color: #373A3F;
+}
+.header-img{
+  border:none;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/31/21/04/people-2561053_1280.jpg") ;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #373A3F;
+
+
+
+
+  position: relative;
+  height: 300px;
+  border-bottom-left-radius: 400% ;
+  border-bottom-right-radius: 400% ;
+
+}
+.header .header-img img{
+  
+    height: 150px;
+    width: 150px;
+    margin: auto;
+  
+    margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+
+    margin-left: 46vw;
+    margin-top: 119px;
+            
+}
+.header-nav{
+    width:100%;
+    height: 80px;
+    background-color: #373A3F;
+    text-align: center;
+    color: #ffdb76;
+    font-weight: bolder;
+    font-size: 50px;
+    
+    
+  
+ 
+}
+.header-nav h1{
+   top: 50%;
+}
+
+
+
+
+
+
+
+.card-body{
+    
+    color:  #F4D279;
+    text-align: center;
+
+}
+.card{
+    border: 6px solid black;
+    background-color: #1D2025;
+    margin-top: 5px
+}
+.card:hover{
+    border-color: #ffdb76;
+}
+
+
+.btnprice {
+  
+  background-color:#F4D279;
+  border: 2px black;
+  color: black;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1.3;
+  cursor: pointer;
+  transition: all 500ms;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 90px 180px;
+}
+
+
+.coins{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 0rem;
+}
+.coinsname{
+    margin-top: 0px;
+    font-size: small;
+}
+.coinsprice{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+.btnprice{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btnprice span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav{
+    margin-top: 10px;
+    height: 47px;
+    width: 100%;
+    background-color: #121B20;
+    text-align:center;
+    position: fixed;
+  bottom: 0;
+   
+}
+nav div i{
+    padding-top: 18px;
+    padding-right: 40px;
+
+    
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+    .header-img{
+        height: 200px;
+    }
+
+    .header .header-img img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    margin-left: 40vw;
+    margin-top: 70px;
+ }
+
+ .header-nav {
+     font-size: 30px;
+     height: 50px;
+ }
+
+ .card-deck .card {
+    margin-bottom: 0px;
+
+
+    width: 100%;
+    height: 115px;
+    
+    
+
+}
+.coins{
+    font-size: 30px;
+}
+.coinsname{
+    
+    font-size:x-small;
+}
+.coinsprice{
+    font-size: 20px;
+    text-decoration: line-through;
+    position: absolute;
+    right: 40%;
+    top: 30%;
+   
+}
+.btnprice{
+    font-size: 30px;
+    font-weight: bolder;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.btnprice span{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px !important;
+   
+}
+
+#cardres{
+    display: inline-flex;
+    padding: 20px;
+    
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+   #res{
+       padding-left: 0px;
+       padding-right: 0px;
+   }
+   
+
+
+}
